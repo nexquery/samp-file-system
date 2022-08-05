@@ -17,9 +17,6 @@ FileSystem_EnableLog(false);
 ### Problems
 The plugin has been tested on Windows and Linux, as far as I can see I haven't found any bugs. If you find an error, feel free to report it.
 
-### Usage
-Visit the [wiki](wiki) page about function usages.
-
 ### Supported Operating Systems
 - Windows
 - Linux
