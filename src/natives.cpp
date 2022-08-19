@@ -571,6 +571,7 @@ cell AMX_NATIVE_CALL Native::File_Close(AMX* amx, cell* params)
 	{
 		if (*p == address)
 		{
+			address->close();
 			delete address;
 			SM::Dosya->erase(p);
 			return 1;
